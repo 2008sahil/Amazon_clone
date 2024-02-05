@@ -19,10 +19,8 @@ const promise=loadStripe('pk_test_51NmLV0SAPwCq4NmNp0UDHweKyrNNoenD0YvMjuyTRslti
 
 function App() {
   let dispatch=useDispatch();
-  // let Username=useSelector((state)=>{return state.lelo.Username})
   let isloggedin=window.localStorage.getItem('username')
   let isloggedinid=window.localStorage.getItem('usermail')
-  // console.log("id",isloggedinid)
   let auth=window.localStorage.getItem('AuthToken')
   // let func=useContext(Context);
   
