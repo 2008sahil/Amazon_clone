@@ -14,7 +14,6 @@ import Checkout from './Componets/Checkout';
 import Orders from './Componets/Orders';
 import SignUP from './Componets/SignUP'
 // import Context from './context';
-
 const promise=loadStripe('pk_test_51NmLV0SAPwCq4NmNp0UDHweKyrNNoenD0YvMjuyTRsltifijBGKiNDVLkMdFNiyFKUPmKv0ufiXvnrfGI7XIZnOW00SJmMO5qx')
 
 function App() {
