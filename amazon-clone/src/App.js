@@ -29,7 +29,6 @@ function App() {
       dispatch(setusername(isloggedin));
       dispatch(setuseremail(isloggedinid));
       dispatch(setauth(auth));
-    
     }
     
   },[])
