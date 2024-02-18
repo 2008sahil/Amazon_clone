@@ -24,7 +24,6 @@ const CreateAndLogin = (props) => {
         body: JSON.stringify(data)  
         });
         const json =await response.json()
-        // console.log("Account logged in",json.sucess)
         return [json.sucess,json.result]
       }
       async function additems( data,url = 'https://amazon-clone-deploy-7lv8.vercel.app/Cart/additem') {
