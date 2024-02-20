@@ -16,6 +16,7 @@ const Used = (props) => {
         }
         setdata(temp)
     }
+    
     async function getNotes(url = 'http://localhost:8000/note/getnote') {
         const response = await fetch(url, {
           method: 'GET', 
