@@ -5,6 +5,7 @@ This is an Amazon clone web application built using the MERN (MongoDB, Express.j
 
 ## Project Overview
 
+
 The Amazon Clone project is designed to mimic the functionality of the Amazon e-commerce platform. Users can browse products, add items to their cart, and proceed to checkout. The project includes the following key features:
 
 - **User Authentication**: Users can create accounts, sign in, and sign out securely. Authentication is managed using Firebase Authentication.
