@@ -1,5 +1,6 @@
 # Amazon Clone
 
+
 This is an Amazon clone web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It features user authentication, a shopping cart, and payment gateway integration for testing purposes.
 
 ## Project Overview
