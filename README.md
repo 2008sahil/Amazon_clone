@@ -1,4 +1,3 @@
-
 # Amazon Clone
 
 
