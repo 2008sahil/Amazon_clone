@@ -7,10 +7,10 @@ app.use(express.json())
 app.use(cors())
 const dotenv = require("dotenv");
 // static files///////////////////
-app.use(express.static(path.join(__dirname,'./amazon-clone/build')))
+app.use(express.static(path.join(__dirname,'../amazon-clone/build')))
 
 app.get("*", (req,res)=>{
-        res.sendFile(path.join(__dirname,'./amazon-clone/build/index.html'))
+        res.sendFile(path.join(__dirname,'../amazon-clone/build/index.html'))
     })
     dotenv.config();
     const stripe=require('stripe')
